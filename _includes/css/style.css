@@ -397,6 +397,12 @@ a:focus {
 	margin-left: 15px;
 }
 
+#blue p {
+	color: white;
+	margin-left: 15px;
+	font-size: 120%;
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
