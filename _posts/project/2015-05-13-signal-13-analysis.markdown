@@ -17,8 +17,10 @@ blurb: The goal of this project is to use to BPD radio communications to better 
 Baltimore Police radio correspondences allow our city’s law enforcement to coordinate efforts quickly and effectively. 
 The goal of this project is to use to BPD radio communications to better understand what happend in the aftermath of Freddie Gray's funeral on April 27th. This project uses radio communications to track police activity on April 27th and 28th, the days of heigtened civil unrest in the city. 
 
-The Entire Recordings can be found at: <a href="http://www.broadcastify.com/archives/feed/3918">Baltimore Police Archives</a>
+The Entire Recordings can be found at: <a href="http://www.broadcastify.com/archives/feed/3918">Baltimore Police Scanner Recording Archives</a>
 These Recordings were put up by the guy behind scan Baltimore: <a href="http://scanbaltimore.com/"> Scan Baltimore </a>
+
+Our datapage includes a zip file of all of the archived audio recordings from the 27th and 28th: <a href="{{"/data/" | prepend: site.baseurl }}">Full Recordings of 27th and 28th</a>
 
 By using a Matlab tools developed by "Insert Name Here" we identified the times at which all Signal 13 calls (code for: officer needs assistance (urgent)) made by BPD that night. We've cut up audio snippets ranging from a minute to a few minutes around the time these Signal 13 were made.
 
