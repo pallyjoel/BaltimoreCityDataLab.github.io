@@ -9,7 +9,8 @@ layout: default
 
         <div class="col-lg-7 col-lg-offset-0">
             <div class="spacing"></div>
-
+             
+            <p><img class="img-responsive" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}"></p>
             {{ content }}
 
         </div>
@@ -21,6 +22,7 @@ layout: default
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
             <p><b>{{page.website}}:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% include comments.html %}
         </div>
     </div><! --/row -->
 </div><! --/container -->

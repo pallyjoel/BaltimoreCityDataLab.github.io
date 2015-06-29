@@ -1,17 +1,18 @@
 ---
 layout: project
+comments: True
 title:  "Signal 13 Analysis"
 date:   2015-05-13 15:00:00
 author: Admin
 categories:
 - project
-img: portfolio_01.jpg
+img: portfolio_02.jpg
 carousel:
 - 1280x600.gif
 website: https://github.com/BaltimoreCityDataLab
 blurb: The goal of this project is to use to BPD radio communications to better record the civil unrest unfolding in Baltimore in the aftermath of Freddie Gray's funeral on April 27th. This project uses radio communications to track police activity on April 27th and 28th, the days of heigtened civil unrest in the city. 
 ---
-##Signal 13 Analysis
+
 
 Baltimore Police radio correspondences allow our city’s law enforcement to coordinate efforts quickly and effectively. 
 The goal of this project is to use to BPD radio communications to better understand what happend in the aftermath of Freddie Gray's funeral on April 27th. This project uses radio communications to track police activity on April 27th and 28th, the days of heigtened civil unrest in the city. 

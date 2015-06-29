@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: True
 title: "Call for Researchers"
 date: 2015-05-13 15:00:00
 author: Admin
