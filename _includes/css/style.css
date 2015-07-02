@@ -105,6 +105,7 @@ a:focus {
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	font-size: 30px;
 }
 
 .navbar-header .navbar-brand {
@@ -114,7 +115,7 @@ a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -193,6 +194,7 @@ a:focus {
 .mtb {
 	margin-top: 40px;
 	margin-bottom: 80px;
+	background-position: center center;
 }
 
 .mb {
@@ -220,7 +222,7 @@ a:focus {
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
-	text-align: center;
+	text-align: left;
 }
 
 #headerwrap h3, h5 {
@@ -245,8 +247,8 @@ a:focus {
 
 #service i {
 	color: {{ site.colors.primary }};
-	font-size: 60px;
-	padding: 15px;
+	font-size: 100px;
+	padding: 0px;
 }
 
 /* Portfolio Wrap */
@@ -395,6 +397,12 @@ a:focus {
 #blue h3 {
 	color: white;
 	margin-left: 15px;
+}
+
+#blue p {
+	color: white;
+	margin-left: 15px;
+	font-size: 120%;
 }
 
 .carousel-inner > .item > img,

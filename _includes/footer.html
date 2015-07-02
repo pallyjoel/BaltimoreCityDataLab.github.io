@@ -6,7 +6,7 @@
                 <div class="hline-w"></div>
                 <p>{{ site.about }}</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
                 <h4>Social Links</h4>
                 <div class="hline-w"></div>
                 <p>
@@ -15,13 +15,21 @@
                     {% endfor %}
                 </p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <h4>Our Location</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Contact Us</h4>
+                <div class="hline-w"></div>
+                <p>
+            <h4>Email</h4>
+            <a href= "baltimorecitydatalab@gmail.com">{{ site.email }}</a>
                 </p>
             </div>
         </div><! --/row -->

@@ -96,6 +96,14 @@ clients:
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Baltimore City Data Lab is facilitating the creation, exchange, and analysis of data relevant to Baltimore City’s pressing social, economic, and health challenges."
 
+contact:
+  -web: Baltimore City Data Lab
+  url: "http://www.github.com/BaltimoreCityDataLab"
+  -twitter: BaltimoreData
+  url: "http://www.twitter.com/BaltimoreData"
+  -Email: Email
+
+
 # Testimonial content. Shown on Home and About page. 
 testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."

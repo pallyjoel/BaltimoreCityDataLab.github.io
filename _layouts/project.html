@@ -7,11 +7,10 @@ layout: default
 <div class="container mt">
     <div class="row">
 
-        {% include carousel.html %}
-
-        <div class="col-lg-5 col-lg-offset-1">
+        <div class="col-lg-7 col-lg-offset-0">
             <div class="spacing"></div>
-
+             
+            <p><img class="img-responsive" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}"></p>
             {{ content }}
 
         </div>
@@ -22,7 +21,8 @@ layout: default
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>{{page.website}}:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% include comments.html %}
         </div>
     </div><! --/row -->
 </div><! --/container -->
