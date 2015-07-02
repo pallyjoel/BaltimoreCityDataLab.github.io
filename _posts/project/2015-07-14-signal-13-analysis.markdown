@@ -1,7 +1,7 @@
 ---
 layout: project
 comments: True
-title:  "Signal 13 Analysis"
+title:  "Signal 13's on 4/27 and 4/28"
 date:   2015-07-04 15:00:00
 author: Admin
 categories:
@@ -10,31 +10,33 @@ img: portfolio_02.jpg
 carousel:
 - 1280x600.gif
 website: https://github.com/BaltimoreCityDataLab
-blurb: The goal of this project is to use BPD radio communications, recorded by <a href="http://scanbaltimore.com/"> scanbaltimore </a>, to better understand the civil unrest that unfolded in Baltimore following Freddie Gray's funeral on April 27th. 
+blurb: The goal of this project is to use a sampling of BPD radio communications, recorded by <a href="http://scanbaltimore.com/"> scanbaltimore </a>, to better understand the civil unrest and police response on April 27th and 28th. 
 ---
 
 
 Baltimore Police Department radio correspondence allows the city’s police force to coordinate efforts quickly and effectively. 
-The goal of this project is to use BPD radio communications to better understand what happend in the aftermath of Freddie Gray's funeral on April 27th.
+The goal of this project is to use a sampling of audio recordings of BPD radio communications to better understand what happend in the aftermath of Freddie Gray's funeral on April 27th and 28th.
 
 
-Our data page includes a <a href="{{"/data/" | prepend: site.baseurl }}">zipped folder</a> of 58 audio files recorded  by <a href="http://scanbaltimore.com/"> scanbaltimore </a> on April 27th and 28th.
+The full sampling of recordings is available on our data page as a <a href="{{"/data/" | prepend: site.baseurl }}">zipped folder</a> that includes 58 audio files recorded  by <a href="http://scanbaltimore.com/"> scanbaltimore </a> on April 27th and 28th.
 
 <!-- 
 By using a Matlab tools developed by "Insert Name Here" we identified the times at which all Signal 13 calls (code for: officer needs assistance (urgent)) made by BPD that night. 
 -->
 
-For this project, we have cut up the original 30-minte audio into "snippets," typically of a few minutes encapsulating "Signal 13" calls. Signal 13 is police code for "officer needs assistance (urgent)", and it can be initiated either by the dispatcher or a police officer in the field.
+For this project, we have sampled from the original 30-minte audio to produce 22 "snippets," typically of a few minutes encapsulating all "Signal 13" calls. "Signal 13" is police code for "officer needs assistance (urgent)," and it can be initiated either by the dispatcher or a police officer in the field.
 
-The audio snippets can be found at the BCDL SoundCloud page: <a href="https://soundcloud.com/baltimorecitydatalab/sets">Soundcloud.com/baltimorecitydatalab</a>
+These audio snippets can be found at the BCDL SoundCloud page: <a href="https://soundcloud.com/baltimorecitydatalab/sets">soundcloud.com/baltimorecitydatalab</a>.
 
 #### Project Tasks
 
 1. <strong> Identify Locations </strong> <br>
-	Signal 13 calls include the location of the officer requesting assistance. However, these calls can be difficult to understand and transcribe. On SoundCloud, in the comments section of each snippet, we have attempted a first transcription of the location and time (if possible) for each Signal 13.  We hope that the open source community will provide feedback on our transcriptions and offer alternative suggestions for improvement. If you don't already, SoundCloud will ask you to set up a free account. The end goal is both to understand the events of April 27th and 28th a bit better, but also to build a log of correct location transcriptions to move us toward the development of a future machine learning algorithm to eventually automate the transcription process.
+	Signal 13 calls include the location of the officer requesting assistance. However, these calls can be difficult to understand and transcribe. On SoundCloud, in the comments section of each snippet, we have attempted a first transcription of the location and time (if possible) for each Signal 13.  We hope that the open source community will provide feedback on our transcriptions and offer alternative suggestions for improvement. If you don't already have one, SoundCloud will ask you to set up a free account. The end goal is both to understand the events of April 27th and 28th a bit better, but also to build a log of correct location transcriptions to move us toward the development of a machine learning algorithm to aid future transcription efforts.
+
+	As you will see on the SoundCloug page, for this project we have two playlists.  To enter comments, first go to the playlist view and click on the individual track.  Then, when the player shows up on the bottom of the window, click on the track name to go to the specific track page where commenting is permitted. Enter a comment by moving the cursor to the appropriate time in the recording and begin typing.
 
 2.  <strong>Transcribe  </strong> <br>
-	If there is anything else on these recordings that you find interesting, transcribe it!  Just add additional comments on the SoundCloud page.  (And, if you are particularly generous with your time, don't hesitate to download the full set of audio recordings from our data page and send your thoughts and additional transcription to us at BaltimoreCityDataLab@gmail.com.
+	If there is anything else on these recordings that you find interesting, transcribe it!  Just add additional comments on the SoundCloud page for the relevant track.  (And, if you are particularly generous with your time, don't hesitate to download the full set of audio recordings from our data page and send your thoughts and additional transcription to us at BaltimoreCityDataLab@gmail.com.)
 
 ## Tips
 
